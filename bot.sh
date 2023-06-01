@@ -1,4 +1,18 @@
 #!/data/data/com.termux/files/usr/bin/bash
+echo Limpando.
+clear
+echo Limpiando..
+clear
+echo Limpiando...
+clear
+echo Limpando.
+clear
+echo Limpiando..
+clear
+echo Limpiando...
+clear
+echo ¡Limpiado con éxito!
+sleep 2
 clear
 # Función para mostrar el progreso de instalación de cada fase
 function install_phase() {
