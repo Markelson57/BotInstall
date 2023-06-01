@@ -21,8 +21,6 @@ echo ¡Limpiado con éxito!
 sleep 4
 clear
 
-#!/data/data/com.termux/files/usr/bin/bash
-
 # Función para mostrar el progreso de instalación de cada fase
 function install_phase() {
     local phase=$1
