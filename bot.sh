@@ -108,7 +108,10 @@ echo "Token: $bot_token" > bot_config.txt
 echo "Canal de bienvenida: $welcome_channel_id" >> bot_config.txt
 echo "Canal de despedida: $goodbye_channel_id" >> bot_config.txt
 echo "Configuración completada."
-
+sleep 2
+echo "Instalando recursos necesarios..."
+pip install discord.py
+clear
 # Ejecución del bot de Discord
 echo "Ejecutando el bot de Discord..."
 python3 bot.py
