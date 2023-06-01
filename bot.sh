@@ -1,14 +1,14 @@
 #!/data/data/com.termux/files/usr/bin/bash
-echo Limpando.
+echo Limpiando.
 sleep 1
 clear
 echo Limpiando..
-sleep 1
+sleep 2
 clear
 echo Limpiando...
-sleep 1
+sleep 3
 clear
-echo Limpando.
+echo Limipando.
 sleep 1
 clear
 echo Limpiando..
@@ -44,7 +44,7 @@ function install_file() {
 }
 
 # Mostrar proceso de instalación en fases
-echo "Simulando proceso de instalación..."
+echo "Proceso de instalación..."
 
 install_phase 1 "Instalando paquetes"
 install_phase 2 "Actualizando configuraciones"
