@@ -8,7 +8,7 @@ clear
 echo Limpiando...
 sleep 3
 clear
-echo Limipando.
+echo Limipiando.
 sleep 1
 clear
 echo Limpiando..
